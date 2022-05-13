@@ -1,0 +1,300 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="{% static 'blog/css/style.css' %}">
+
+  <title>FAQ</title>
+</head>
+<body>
+<header style="height: 100px; background-color: blanchedalmond;" class="cd-header flex flex-row flex-center">
+  <a style="margin-right: 30px;" href="/"><button style="background-color: #a0af4c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; border-radius: 5px;">Home</button></a>
+  <div class="text-component text-center">
+    <h1 style="font-weight: 600; color: black;">FAQs</h1>
+  </div>
+</header>
+
+<section class="cd-faq js-cd-faq container max-width-md margin-top-lg margin-bottom-lg">
+	<ul class="cd-faq__categories">
+		<li><a class="cd-faq__category truncate" href="#delivery">About India</a></li>
+		<li><a class="cd-faq__category cd-faq__category-selected truncate" href="#basics">Transport</a></li>
+		<li><a class="cd-faq__category truncate" href="#mobile">Renting Cars</a></li>
+		<li><a class="cd-faq__category truncate" href="#account">Hotels</a></li>
+		<li><a class="cd-faq__category truncate" href="#payments">General Travel</a></li>
+		<li><a class="cd-faq__category truncate" href="#privacy">Travel Agents</a></li>
+		
+	</ul> <!-- cd-faq__categories -->
+
+	<div class="cd-faq__items">
+
+		<ul id="delivery" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>About India</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Is India a safe place to travel?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>The answer to most questions about India lies in understanding its diversity and the complexity that comes with it. Generally speaking, India is a very safe and tourist friendly country. While petty thefts can be common if you are not careful, violence is extremely rare. At major tourist destinations everyone, no matter their ethnicity and gender, will be treated with equal respect and you will find many people who are eager to help the tourists.<br>
+				The question of women’s safety in India has come up recently raising concerns among many travellers. However, the fact is that India remains generally safe for female travellers and most women will experience, at worst, unwelcome attention from men. Needless to say, like any other place in the world, it is always a good idea to exercise caution and be aware of the local culture.<br>
+				Some safety tips to follow while travelling in India:<br>
+				•	It is always a good idea to keep an extra stash of cash away from the wallet that you are carrying around. Pickpocketing is not uncommon at tourist destinations.<br>
+				•	Avoid talking to touts and agents who offer to show you around the place or organize transportation for you.<br>
+				•	It is very important in India to dress appropriately, especially so for female travellers. It is a conservative country, so be respectful of that by covering your shoulders and legs and watching your cleavage.<br>
+				•	Avoid arriving at a new destination late in the night (unless it is a major city).<br>
+				•	As rude as you may feel, be assertive when dealing with persistent and persuasive vendors, beggars or touts.<br>
+				</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>What Is the Best Time to Visit India?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>It depends on which part of India if you wish to visit. In case you are interested in visiting Ladakh or other parts of Himalaya then summer season is the best time. If you want to visit Rajasthan, other parts of North India or Souht India then winter season ( October till March ) is ideal period. Even travelling during monsoon months (July – September) is also not a bad idea to visit Rajasthan and other places it presents a good tourism opportunity during this time as one can stay at Luxury or Palace hotels without spending a fortune during those months.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Where should I travel and what should I see if it’s my first time in India?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Well, India is a huge country – both geographically and culturally. So, that’s a difficult question to answer. But I’d say that if it’s your first time, you should definitely visit Rajasthan, which would offer you the real essence of India, and it’s also a very comfy destination for a solo traveller.
+				Then, you should visit Goa and Kerala for sure. I’d also recommend Delhi, as it’s the capital and a heritage city as well. In terms of important cities, you should visit Mumbai – the ‘mad’ city of India, which is lots of fun!
+			</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>What is the currency of India? Can I pay for things in my own currency?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>The Indian rupee (sign: ₹; code: INR), is the official currency of India and it is not possible to pay using any other currency. It is easy to exchange currency at banks, airports, or authorized money changers. US Dollars and Pound Sterling are the easiest currency to exchange.
+				In major cities, it is usually possible to use credit/debit cards. However, in smaller towns and villages the choice is narrowed to cash or Visa/Mastercard. Also, it is quite easy to find ATMs in most places.
+			</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Can I travel to India on a budget?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Yes! India is one of the most budget-friendly travel destinations out there! Unless you want a Maharaja lifestyle, India is one of the best places to travel for budget travellers. The hotel or hostel rentals, the cost of food and transport is among the cheapest you will find in the whole world. No wonder you can survive India in less that $25 a day.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>What airline should I fly with to India?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>It’s less about what airline and more about which airline is the cheapest at the time. I use Kiwi to search and book. They combine low-cost carriers so you can fly a big airline to India and a low cost from Delhi/Mumbai onward.
+			   This is dependent upon which country you are coming from. From the U.S. I always find great deals with United Airlines/ British Airlines, and I’ve since signed up for Star Alliance to gain points with them. When looking at last minute bookings for return flights, it seems Air France offers a great deal. Round trip from Ohio to Bombay I pay no more than $1,400 if I book a month in advance.
+			</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How Should I Travel Around in India?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>The best way to travel within India is to travel by road as this offers you an opportunity to have a glimpse of real INDIA as you can visit en-route villages and small forts at your own pace which is not possible by air or by train. But, if you are travelling to long distance, then taking a flight or trains can be more convenient and to save time.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+		</ul> <!-- cd-faq__group -->
+
+		<ul id="basics" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>Transport</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>What is the average rickshaw fare per kilometre?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>At an average the fare for a rickshaw in Mumbai 12 rupees per kilometre, depending on traffic. The minimum amount that one has to pay when hiring a rickshaw is 18 rupees. Please note, the rate for night-time travel is different and has a higher rate. The minimum amount that one has to pay when hiring a rickshaw at night is 23 rupees.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>What is the average Taxi fare per kilometre?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>At an average the fare for a taxi in Mumbai 15 rupees per kilometre, depending on traffic. The minimum amount that one has to pay when hiring a taxi is 22 rupees. Please note, the rate for night-time travel is different and has a higher rate. The minimum amount that one has to pay when hiring a rickshaw at night is 28 rupees.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How do I know the fare of my taxi or rickshaw ride?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>There is a meter on the entrances of rickshaws and near the gearboxes of taxis, where your fare is displayed. The driver cannot ask you for more money than what is displayed on the meter and you have the right to refuse in case he demands more.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How do I estimate how much would my fare for the rickshaw or taxi from point A to point B be?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>The procedure to estimate your fare is simple. Go to Google maps and input whatever destination you wish to go to, and see what distance is displayed on the screen.<br> 
+				Fare= (number of kilometres -1) x (fare per kilometre) + minimum fare<br>
+				Bear in mind, these estimates are subject to traffic and therefore may vary a little.<br>
+				Fare Calculator for Taxi -
+				https://www.taxiautofare.com/5/Mumbai-Auto-fare-calculator/loid </p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+		</ul> <!-- cd-faq__group -->
+
+		<ul id="mobile" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>Renting Cars</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>What are the age requirements to rent a car?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>In India, most car rental companies have a minimum age of 18 or above. There are exceptions, but the renter must pay a surcharge. Drivers need to be a minimum of 18 in most countries and have a valid Indian driver’s license. Please check the official website of the rental company. These sites generally have age restrictions posted there, as well as information regarding seat belt laws, child seat requirements, and speed limits. One of the safest and guaranteed rental car website is -https://www.kayak.co.in/India-Car-hire.112.crc.html</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How do I pay for the car rental?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Generally a credit card is required to secure a car. Many car rental companies will not accept a        Debit card, cash for payment or 3rd party credit cards as payment. Check with the individual car company for their policies. All rates are quoted and guaranteed in Indian rupees.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Are the services that you suggest on the website authentic and vetted by the authorities?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Yes, we only suggest authentic government services which are vetted by the government itself.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+		</ul> <!-- cd-faq__group -->
+
+		<ul id="account" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>Hotels</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Can I cancel or make changes to my hotel booking?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Many pre-paid hotels are non refundable and cannot be cancelled or changed. There is a certain cancellation fee . You may also be subject to penalties and fees from the hotel. It is advised that you verify all hotel rules on your pre-paid reservation.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Can I add additional people to an existing hotel booking?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Yes. You can add a guest to the same hotel room by calling the concerned customer service desk at the hotel you have booked. Please note there may be a charge for additional guests.
+				If you need to book an additional room for the guest you may do so online as a new reservation.
+			</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+		</ul> <!-- cd-faq__group -->
+
+		<ul id="payments" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>General Travel</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>What Travel Documents do I often need while travelling?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>One must possess a passport which is valid for minimum 6 months from the date of entry into India. Many countries have been included in the list of countries whose citizens are provided E-Visa facility provided they apply 72 hours in advance. Other nationals need to obtain Indian visa in advance to enter India.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Do I Need Medical/travel Insurance?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Yes. It is advisable that you buy a comprehensive medical / travel insurance in advance from your country before travelling to India.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Once I’ve begun my trip, who should I contact for help?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Once your journey has commenced, it is advisable to get in touch with the Airline or service provider in the city/country where you are situated.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>What are some basic words in Hindi to help me get by?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Parnashree of My Travel Diary has the scoop on what phrases will help you get by on your journey throughout India. The basic Hindi words that can help you while exploring India are:<br>
+				•	Namaste – Hello<br>
+				•	Dhanyavaad – Thank You<br>
+				•	App Kaise ho? – How are you?<br>
+				•	Mein acha/achi hu – I am good<br>
+			</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+		</ul> <!-- cd-faq__group -->
+
+		<ul id="privacy" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>Travel Agents</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>What is a Consolidator?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Consolidators are wholesalers of airline tickets to retail travel agencies. These tickets are generally available through retail travel agencies only.
+			Consolidators have an agreement with airlines to purchase certain seats in advance in big volumes, thereby bringing savings to the traveler.
+			Most Consolidator tickets offer frequent flyer miles. Restrictions are similar to an advance purchase ticket.
+			Consolidator Fares are generally 20-50% discounted than published fares, they may have similar or more restrictions. Cancellations and changes are usually more restrictive, so if you are set on your dates do not worry about the conditions. You may want to purchase Travel Insurance.
+			</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How do travel agents get paid? Will I be charged extra or will my accommodations have an extra fee?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Travel agents are paid by the resorts or hotels you are staying at, they do not charge a service fee.  
+				Many resorts have price parity, the cost is same whether you book through us, direct with the resort, or with an online booking engine.  
+				The difference between using a travel agent is that we help you plan a stress-free vacation without the hassle of going it alone. 
+			</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+		</ul> <!-- cd-faq__group -->
+
+		
+	</div> <!-- cd-faq__items -->
+
+	<a href="#0" class="cd-faq__close-panel text-replace">Close</a>
+  
+  <div class="cd-faq__overlay" aria-hidden="true"></div>
+</section> <!-- cd-faq -->
+<script src="{% static 'blog/js/util.js' %}"></script>
+<script src="{% static 'blog/js/main.js' %}"></script>
+
+</body>
+</html>
